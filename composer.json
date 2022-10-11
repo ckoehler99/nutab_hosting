@@ -1,0 +1,14 @@
+{
+    "name": "ckoehler99/nutab_hosting",
+    "description": "Sample PHP application for App Platform",
+    "type": "project",
+    "require": {
+
+    },
+    "authors": [
+        {
+            "name": "Christian Köhler",
+            "email": "ckoehler99@gmail.com"
+        }
+    ]
+}
