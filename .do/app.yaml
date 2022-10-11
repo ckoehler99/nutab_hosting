@@ -1,0 +1,8 @@
+name: nutab
+services:
+- environment_slug: php
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: ckoehler99/nutab_hosting
+  name: nutab
