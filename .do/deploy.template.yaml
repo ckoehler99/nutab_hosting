@@ -1,4 +1,7 @@
 spec:
+  domains:
+  - domain: nutab.digitalocean.ck99.io
+  type: PRIMARY
   name: nutab
   services:
   - environment_slug: php
