@@ -5,7 +5,7 @@ spec:
   name: nutab
   services:
   - environment_slug: php
-    git:
-      branch: main
-      repo_clone_url: https://github.com/ckoehler99/nutab_hosting.git
-    name: nutab
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: ckoehler99/nutab_hosting
