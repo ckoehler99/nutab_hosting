@@ -20,10 +20,10 @@ Beispiele
 <!-- Tabelle mit voller Anzeige -->
 <div class="srsTab" srsurl="..." srsVerein="Zirndorf"></div>
 
-<!-- Spielplan f�r eineKlasse -->
+<!-- Spielplan fuer eineKlasse -->
 <div class="srsPlan" srsurl="..." srsVerein="Zirndorf" srsAlle=1></div>
 
-<!-- Gesamt-Spielplan f�r einen Verein -->
+<!-- Gesamt-Spielplan fuer einen Verein -->
 <div class="srsPlanVerein" srsclub="..." srsAlle=1></div>
 
 */
@@ -37,7 +37,7 @@ jQuery(document).ready(function($){
 	// SERVER kann ersetzt werden durch den echten Server auf dem fetch_table.php installiert oder genutzt werden soll
 	// immer mit // beginnen und mit / beenden!! Auf das Verzeichnis im Server wo fetch_table installiert ist
 	// und immer mit oder ohne www. davor, abhaengig davon, ob ihr eure Seite mit oder ohne aufruft. Also nur das http(s):: davor weglassen
-	var server = "//nutab.digitalocean.ck99.io/"; // OHNE http: vorne, also nicht http://EuerServer... sondern nur //EuerServer...
+	var server = "//nutab.netlify.ck99.io/"; // OHNE http: vorne, also nicht http://EuerServer... sondern nur //EuerServer...
 	var options = setOptions(server);
 	server = options.server;
 	// da so viele Probleme mit der Server Konfiguration haben, testen wir das gleich
