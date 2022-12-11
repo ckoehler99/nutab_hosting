@@ -1,8 +1,11 @@
-name: nutab
-services:
-- environment_slug: php
+spec:
+  domains:
+  - domain: nutab.digitalocean.ck99.io
+  type: PRIMARY
+  name: nutab
+  services:
+  - environment_slug: php
   github:
     branch: main
     deploy_on_push: true
     repo: ckoehler99/nutab_hosting
-  name: nutab
